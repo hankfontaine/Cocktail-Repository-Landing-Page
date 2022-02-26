@@ -1,0 +1,179 @@
+body,
+html > * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  color: #000;
+  background-color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding: 0%;
+}
+
+header {
+  color: #ffffff;
+  background-color: #1f2937;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.Cocktail-Logo {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #f9faf8;
+}
+
+ul {
+  list-style-type: none;
+  font-style: italic;
+  display: flex;
+  gap: 10px;
+}
+
+.Top-Links {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.Logo-And-Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.About-Section-Title {
+  font-size: 24px;
+}
+
+.About-Section-Text {
+  font-size: 18px;
+  font-style: italic;
+  padding: 20px 0px;
+}
+
+.About-Section-Title-And-Text-And-Button {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+.About-Section-Box {
+  display: flex;
+  justify-content: space-around;
+  padding: 8px;
+  margin-bottom: 100px;
+}
+
+.Martini,
+.Manhattan,
+.Old-Fashioned,
+.Negroni {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 200px;
+  font-style: italic;
+}
+
+.Random-Info-Section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.Random-Info-Section img {
+  width: 50px;
+  height: auto;
+  border: 5px;
+  border-color: #1f2937;
+}
+
+.Random-Info-Header {
+  font-size: 36px;
+  font-weight: 1000;
+  font-style: italic;
+  color: #1f2937;
+  text-align: center;
+  padding: 40px;
+}
+
+.Random-Info-Section-And-Header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+.Inspiring-Quote-Container {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  padding: 200px;
+  align-items: flex-end;
+}
+
+.Quote-Font {
+  font-size: 36px;
+  font-style: italic;
+}
+
+.Quote-Attribution {
+  text-decoration: line-through;
+  font-style: italic;
+}
+
+.Quote-Misattribution {
+  font-style: italic;
+}
+
+.CTA-Outside-Container {
+  display: flex;
+  justify-content: space-around;
+  padding: 200px;
+}
+
+.CTA-Inside-Container {
+  display: flex;
+  color: white;
+  font-size: 18px;
+  background-color: #3882f6;
+  padding: 40px;
+  gap: 20px;
+  border-radius: 25px;
+  align-items: center;
+}
+
+.CTA-Inside-Inside-Left {
+  display: flex;
+  flex-direction: column;
+}
+
+.CTA-Inside-Inside-Container {
+  display: flex;
+}
+
+.CTA-Title {
+  font-size: 40px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.CTA-Text {
+  font-size: 16px;
+}
+
+.Footer-Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  padding: 40px;
+}
